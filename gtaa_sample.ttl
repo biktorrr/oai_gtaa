@@ -1,0 +1,631 @@
+# Downloaded: Tue Nov 04 13:00:38 2014
+@prefix    skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix    rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix     rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix     oai: <http://www.openarchives.org/OAI/2.0/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix     org: <http://openskos.org/> .
+
+# Toplevel blank-nodes (100)
+[ a oai:Record ;
+  oai:datestamp "2013-12-06T14:06:50Z" ;
+  oai:identifier "00001a25-6cdc-11ee-65f6-702d013fd231" ;
+  oai:server org:oai-pmh
+] .
+[ a oai:Record ;
+  oai:datestamp "2013-10-17T13:14:35Z" ;
+  oai:identifier "00003414-9b38-1435-982d-2ca41f63b31c" ;
+  oai:server org:oai-pmh ;
+  rdf:description [ a [ a rdfs:Class ;
+			rdf:resource "http://www.w3.org/2004/02/skos/core#Concept"
+		      ] ,
+		      rdf:Description ;
+		    dcterms:creator <NAA> ;
+		    dcterms:dateAccepted "2007-11-24T03:36:05" ;
+		    dcterms:dateSubmitted "2007-11-24T03:36:05" ;
+		    rdf:about "http://data.beeldengeluid.nl/gtaa/114475" ;
+		    skos:hiddenLabel "Nardo Jacobs"@nl ;
+		    skos:historyNote "Goedgekeurd door: NAA"@nl ;
+		    skos:inScheme [ a skos:ConceptScheme ;
+				    rdf:resource "http://data.beeldengeluid.nl/gtaa/Persoonsnamen"
+				  ] ;
+		    skos:notation "114475" ;
+		    skos:prefLabel "Jacobs, Nardo"@nl
+		  ]
+] .
+[ a oai:Record ;
+  oai:datestamp "2013-10-17T13:13:59Z" ;
+  oai:identifier "00006481-0f46-fe61-c016-748a2365e3ca" ;
+  oai:server org:oai-pmh ;
+  rdf:description [ a [ a rdfs:Class ;
+			rdf:resource "http://www.w3.org/2004/02/skos/core#Concept"
+		      ] ,
+		      rdf:Description ;
+		    dcterms:creator <NAA> ;
+		    dcterms:dateAccepted "2007-11-24T03:09:22" ;
+		    dcterms:dateSubmitted "2007-11-24T03:09:22" ;
+		    rdf:about "http://data.beeldengeluid.nl/gtaa/112309" ;
+		    skos:hiddenLabel "Peter Ittinuar"@nl ;
+		    skos:historyNote "Goedgekeurd door: NAA"@nl ;
+		    skos:inScheme [ a skos:ConceptScheme ;
+				    rdf:resource "http://data.beeldengeluid.nl/gtaa/Persoonsnamen"
+				  ] ;
+		    skos:notation "112309" ;
+		    skos:prefLabel "Ittinuar, Peter"@nl ;
+		    skos:scopeNote "woordvoerder eskimo's"@nl
+		  ]
+] .
+[ a oai:Record ;
+  oai:datestamp "2013-10-17T12:40:48Z" ;
+  oai:identifier "00008a19-a4a7-1518-8d1a-ca423f02b7d3" ;
+  oai:server org:oai-pmh ;
+  rdf:description [ a [ a rdfs:Class ;
+			rdf:resource "http://www.w3.org/2004/02/skos/core#Concept"
+		      ] ,
+		      rdf:Description ;
+		    dcterms:contributor [ a dcterms:Agent ;
+					  rdf:value "GWA, TVA"
+					] ;
+		    dcterms:creator <NAA> ;
+		    dcterms:dateAccepted "2007-11-23T13:18:19" ;
+		    dcterms:dateSubmitted "2007-11-23T13:18:19" ;
+		    dcterms:modified "2007-11-23T14:22:08" ;
+		    rdf:about "http://data.beeldengeluid.nl/gtaa/26256" ;
+		    skos:broadMatch [ a skos:BroadMatch ;
+				      rdf:resource "http://data.beeldengeluid.nl/gtaa/24826"
+				    ] ;
+		    skos:historyNote "Gewijzigd door: NAA"@nl ,
+				     "Goedgekeurd door: NAA"@nl ,
+				     "Recordnummer: 4077 Datum invoer: 2-5-1996 Gebruiker invoer: LENNY Datum gewijzigd: 29-9-2004 Gebruiker gewijzigd: Beng"@nl ;
+		    skos:inScheme [ a skos:ConceptScheme ;
+				    rdf:resource "http://data.beeldengeluid.nl/gtaa/Onderwerpen"
+				  ] ;
+		    skos:notation "26256" ;
+		    skos:prefLabel "meditatie"@nl ;
+		    skos:related [ a skos:Related ;
+				   rdf:resource "http://data.beeldengeluid.nl/gtaa/25726"
+				 ] ,
+				 [ a skos:Related ;
+				   rdf:resource "http://data.beeldengeluid.nl/gtaa/28334"
+				 ] ,
+				 [ a skos:Related ;
+				   rdf:resource "http://data.beeldengeluid.nl/gtaa/26357"
+				 ] ,
+				 [ a skos:Related ;
+				   rdf:resource "http://data.beeldengeluid.nl/gtaa/26889"
+				 ] ,
+				 [ a skos:Related ;
+				   rdf:resource "http://data.beeldengeluid.nl/gtaa/27428"
+				 ] ,
+				 [ a skos:Related ;
+				   rdf:resource "http://data.beeldengeluid.nl/gtaa/27455"
+				 ] ;
+		    skos:topConceptOf [ a skos:ConceptScheme ;
+					rdf:resource "http://data.beeldengeluid.nl/gtaa/Onderwerpen"
+				      ]
+		  ]
+] .
+[ a oai:Record ;
+  oai:datestamp "2013-10-17T13:31:03Z" ;
+  oai:identifier "0002a303-079c-041e-9d68-59e59943f196" ;
+  oai:server org:oai-pmh ;
+  rdf:description [ a [ a rdfs:Class ;
+			rdf:resource "http://www.w3.org/2004/02/skos/core#Concept"
+		      ] ,
+		      rdf:Description ;
+		    dcterms:creator <NAA> ;
+		    dcterms:dateAccepted "2007-11-24T16:41:07" ;
+		    dcterms:dateSubmitted "2007-11-24T16:41:07" ;
+		    rdf:about "http://data.beeldengeluid.nl/gtaa/166160" ;
+		    skos:hiddenLabel "Wieger Vlot"@nl ;
+		    skos:historyNote "Goedgekeurd door: NAA"@nl ;
+		    skos:inScheme [ a skos:ConceptScheme ;
+				    rdf:resource "http://data.beeldengeluid.nl/gtaa/Persoonsnamen"
+				  ] ;
+		    skos:notation "166160" ;
+		    skos:prefLabel "Vlot, Wieger"@nl ;
+		    skos:scopeNote "wielrenner"@nl
+		  ]
+] .
+[ a oai:Record ;
+  oai:datestamp "2013-10-17T12:40:30Z" ;
+  oai:identifier "0002df16-081e-4f3d-2185-87277cd95ffd" ;
+  oai:server org:oai-pmh ;
+  rdf:description [ a [ a rdfs:Class ;
+			rdf:resource "http://www.w3.org/2004/02/skos/core#Concept"
+		      ] ,
+		      rdf:Description ;
+		    dcterms:creator <NAA> ;
+		    dcterms:dateAccepted "2007-11-23T13:12:33" ;
+		    dcterms:dateSubmitted "2007-11-23T13:12:33" ;
+		    dcterms:modified "2007-11-23T13:49:38" ;
+		    rdf:about "http://data.beeldengeluid.nl/gtaa/24959" ;
+		    skos:altLabel "hoekmannen"@nl ;
+		    skos:broadMatch [ a skos:BroadMatch ;
+				      rdf:resource "http://data.beeldengeluid.nl/gtaa/24855"
+				    ] ;
+		    skos:broader [ a skos:Broader ;
+				   rdf:resource "http://data.beeldengeluid.nl/gtaa/30003"
+				 ] ;
+		    skos:historyNote "Gewijzigd door: NAA"@nl ,
+				     "Goedgekeurd door: NAA"@nl ,
+				     "Recordnummer: 603 Datum invoer: 23-7-1998 Gebruiker invoer: WOLTHUIS Datum gewijzigd: 17-5-2005 Gebruiker gewijzigd: Beng"@nl ;
+		    skos:inScheme [ a skos:ConceptScheme ;
+				    rdf:resource "http://data.beeldengeluid.nl/gtaa/Onderwerpen"
+				  ] ;
+		    skos:notation "24959" ;
+		    skos:prefLabel "beurshandelaren"@nl ;
+		    skos:related [ a skos:Related ;
+				   rdf:resource "http://data.beeldengeluid.nl/gtaa/25596"
+				 ] ,
+				 [ a skos:Related ;
+				   rdf:resource "http://data.beeldengeluid.nl/gtaa/26769"
+				 ] ,
+				 [ a skos:Related ;
+				   rdf:resource "http://data.beeldengeluid.nl/gtaa/24943"
+				 ]
+		  ]
+] .
+[ a oai:Record ;
+  oai:datestamp "2013-10-17T12:41:29Z" ;
+  oai:identifier "00031e08-1409-f47f-111e-985e24d2c321" ;
+  oai:server org:oai-pmh ;
+  rdf:description [ a [ a rdfs:Class ;
+			rdf:resource "http://www.w3.org/2004/02/skos/core#Concept"
+		      ] ,
+		      rdf:Description ;
+		    dcterms:contributor [ a dcterms:Agent ;
+					  rdf:value "GWA"
+					] ;
+		    dcterms:creator <NAA> ;
+		    dcterms:dateAccepted "2007-11-23T13:34:35" ;
+		    dcterms:dateSubmitted "2007-11-23T13:34:35" ;
+		    dcterms:modified "2007-11-23T15:20:11" ;
+		    rdf:about "http://data.beeldengeluid.nl/gtaa/29839" ;
+		    skos:broadMatch [ a skos:BroadMatch ;
+				      rdf:resource "http://data.beeldengeluid.nl/gtaa/24824"
+				    ] ,
+				    [ a skos:BroadMatch ;
+				      rdf:resource "http://data.beeldengeluid.nl/gtaa/24895"
+				    ] ;
+		    skos:broader [ a skos:Broader ;
+				   rdf:resource "http://data.beeldengeluid.nl/gtaa/29834"
+				 ] ;
+		    skos:historyNote "Gewijzigd door: NAA"@nl ,
+				     "Goedgekeurd door: NAA"@nl ,
+				     "Recordnummer: 13776 Datum invoer: 17-3-2004 Gebruiker invoer: Beng Datum gewijzigd: 17-3-2004 Gebruiker gewijzigd: Beng"@nl ;
+		    skos:inScheme [ a skos:ConceptScheme ;
+				    rdf:resource "http://data.beeldengeluid.nl/gtaa/Onderwerpen"
+				  ] ;
+		    skos:notation "29839" ;
+		    skos:prefLabel "muziekprijzen"@nl ;
+		    skos:related [ a skos:Related ;
+				   rdf:resource "http://data.beeldengeluid.nl/gtaa/28200"
+				 ] ,
+				 [ a skos:Related ;
+				   rdf:resource "http://data.beeldengeluid.nl/gtaa/27146"
+				 ] ,
+				 [ a skos:Related ;
+				   rdf:resource "http://data.beeldengeluid.nl/gtaa/29845"
+				 ]
+		  ]
+] .
+[ a oai:Record ;
+  oai:datestamp "2013-10-17T13:14:54Z" ;
+  oai:identifier "00032002-8377-dc15-256f-dcc803907023" ;
+  oai:server org:oai-pmh ;
+  rdf:description [ a [ a rdfs:Class ;
+			rdf:resource "http://www.w3.org/2004/02/skos/core#Concept"
+		      ] ,
+		      rdf:Description ;
+		    dcterms:creator <NAA> ;
+		    dcterms:dateAccepted "2007-11-24T03:43:46" ;
+		    dcterms:dateSubmitted "2007-11-24T03:43:46" ;
+		    rdf:about "http://data.beeldengeluid.nl/gtaa/115083" ;
+		    skos:hiddenLabel "Roland Jansen"@nl ;
+		    skos:historyNote "Goedgekeurd door: NAA"@nl ;
+		    skos:inScheme [ a skos:ConceptScheme ;
+				    rdf:resource "http://data.beeldengeluid.nl/gtaa/Persoonsnamen"
+				  ] ;
+		    skos:notation "115083" ;
+		    skos:prefLabel "Jansen, Roland"@nl ;
+		    skos:scopeNote "voetbalkeeper"@nl
+		  ]
+] .
+[ a oai:Record ;
+  oai:datestamp "2013-10-17T13:05:50Z" ;
+  oai:identifier "000332c8-df4d-fc00-2aae-8e045e8e982a" ;
+  oai:server org:oai-pmh ;
+  rdf:description [ a [ a rdfs:Class ;
+			rdf:resource "http://www.w3.org/2004/02/skos/core#Concept"
+		      ] ,
+		      rdf:Description ;
+		    dcterms:creator <NAA> ;
+		    dcterms:dateAccepted "2007-11-23T23:15:42" ;
+		    dcterms:dateSubmitted "2007-11-23T23:15:42" ;
+		    rdf:about "http://data.beeldengeluid.nl/gtaa/87042" ;
+		    skos:hiddenLabel "J.M. de Bruyn"@nl ;
+		    skos:historyNote "Goedgekeurd door: NAA"@nl ;
+		    skos:inScheme [ a skos:ConceptScheme ;
+				    rdf:resource "http://data.beeldengeluid.nl/gtaa/Persoonsnamen"
+				  ] ;
+		    skos:notation "87042" ;
+		    skos:prefLabel "Bruyn, J.M. de"@nl ;
+		    skos:scopeNote "ingenieur"@nl
+		  ]
+] .
+[ a oai:Record ;
+  oai:datestamp "2013-10-17T12:17:37Z" ;
+  oai:identifier "00035891-a8e3-121a-2dd3-267a4b260bb3" ;
+  oai:server org:oai-pmh ;
+  rdf:description [ a [ a rdfs:Class ;
+			rdf:resource "http://www.w3.org/2004/02/skos/core#Concept"
+		      ] ,
+		      rdf:Description ;
+		    dcterms:creator <NAA> ;
+		    dcterms:dateAccepted "2007-11-23T16:19:39" ;
+		    dcterms:dateSubmitted "2007-11-23T16:19:39" ;
+		    rdf:about "http://data.beeldengeluid.nl/gtaa/38381" ;
+		    skos:historyNote "Goedgekeurd door: NAA"@nl ;
+		    skos:inScheme [ a skos:ConceptScheme ;
+				    rdf:resource "http://data.beeldengeluid.nl/gtaa/GeografischeNamen"
+				  ] ;
+		    skos:notation "38381" ;
+		    skos:prefLabel "Langerak"@nl ;
+		    skos:scopeNote "Nederland"@nl
+		  ]
+] .
+[ a oai:Record ;
+  oai:datestamp "2013-10-17T12:33:11Z" ;
+  oai:identifier "0003dd1a-30ae-613e-ce85-6b7c0f2741b0" ;
+  oai:server org:oai-pmh ;
+  rdf:description [ a [ a rdfs:Class ;
+			rdf:resource "http://www.w3.org/2004/02/skos/core#Concept"
+		      ] ,
+		      rdf:Description ;
+		    dcterms:creator <NAA> ;
+		    dcterms:dateAccepted "2007-11-23T18:20:55" ;
+		    dcterms:dateSubmitted "2007-11-23T18:20:55" ;
+		    rdf:about "http://data.beeldengeluid.nl/gtaa/55659" ;
+		    skos:historyNote "Goedgekeurd door: NAA"@nl ;
+		    skos:inScheme [ a skos:ConceptScheme ;
+				    rdf:resource "http://data.beeldengeluid.nl/gtaa/Namen"
+				  ] ;
+		    skos:notation "55659" ;
+		    skos:prefLabel "Hawk"@nl ;
+		    skos:scopeNote "raket"@nl
+		  ]
+] .
+[ a oai:Record ;
+  oai:datestamp "2013-10-17T13:33:45Z" ;
+  oai:identifier "0003dfd3-b178-9c80-2bb5-64f2ef760701" ;
+  oai:server org:oai-pmh ;
+  rdf:description [ a [ a rdfs:Class ;
+			rdf:resource "http://www.w3.org/2004/02/skos/core#Concept"
+		      ] ,
+		      rdf:Description ;
+		    dcterms:creator <Olaf_Hartjens> ;
+		    dcterms:dateAccepted "2009-04-24T13:52:19" ;
+		    dcterms:dateSubmitted "2009-03-19T15:57:16" ;
+		    rdf:about "http://data.beeldengeluid.nl/gtaa/213015" ;
+		    skos:hiddenLabel "Iwan Spekenbrink"@nl ;
+		    skos:historyNote "Goedgekeurd door: Christel Pijl"@nl ;
+		    skos:inScheme [ a skos:ConceptScheme ;
+				    rdf:resource "http://data.beeldengeluid.nl/gtaa/Persoonsnamen"
+				  ] ;
+		    skos:notation "213015" ;
+		    skos:prefLabel "Spekenbrink, Iwan"@nl ;
+		    skos:scopeNote "manager wielerploeg Skil-Shimano"@nl
+		  ]
+] .
+[ a oai:Record ;
+  oai:datestamp "2013-10-17T13:02:32Z" ;
+  oai:identifier "00043244-3ed4-7ecc-799e-5e909974ee8c" ;
+  oai:server org:oai-pmh ;
+  rdf:description [ a [ a rdfs:Class ;
+			rdf:resource "http://www.w3.org/2004/02/skos/core#Concept"
+		      ] ,
+		      rdf:Description ;
+		    dcterms:creator <NAA> ;
+		    dcterms:dateAccepted "2007-11-23T22:08:41" ;
+		    dcterms:dateSubmitted "2007-11-23T22:08:41" ;
+		    rdf:about "http://data.beeldengeluid.nl/gtaa/76322" ;
+		    skos:hiddenLabel "Marin Alsop"@nl ;
+		    skos:historyNote "Goedgekeurd door: NAA"@nl ;
+		    skos:inScheme [ a skos:ConceptScheme ;
+				    rdf:resource "http://data.beeldengeluid.nl/gtaa/Persoonsnamen"
+				  ] ;
+		    skos:notation "76322" ;
+		    skos:prefLabel "Alsop, Marin"@nl
+		  ]
+] .
+[ a oai:Record ;
+  oai:datestamp "2013-10-17T13:32:49Z" ;
+  oai:identifier "00047535-4fbc-4567-474c-14a2b2594fdd" ;
+  oai:server org:oai-pmh ;
+  rdf:description [ a [ a rdfs:Class ;
+			rdf:resource "http://www.w3.org/2004/02/skos/core#Concept"
+		      ] ,
+		      rdf:Description ;
+		    dcterms:creator <NAA> ;
+		    dcterms:dateAccepted "2007-11-24T18:36:57" ;
+		    dcterms:dateSubmitted "2007-11-24T18:36:57" ;
+		    rdf:about "http://data.beeldengeluid.nl/gtaa/172133" ;
+		    skos:historyNote "Goedgekeurd door: NAA"@nl ;
+		    skos:inScheme [ a skos:ConceptScheme ;
+				    rdf:resource "http://data.beeldengeluid.nl/gtaa/Persoonsnamen"
+				  ] ;
+		    skos:notation "172133" ;
+		    skos:prefLabel "Yeh Chien-Ying"@nl
+		  ]
+] .
+[ a oai:Record ;
+  oai:datestamp "2013-10-17T12:40:30Z" ;
+  oai:identifier "0004a9ba-10f0-177f-f914-a4687f8d60a6" ;
+  oai:server org:oai-pmh ;
+  rdf:description [ a [ a rdfs:Class ;
+			rdf:resource "http://www.w3.org/2004/02/skos/core#Concept"
+		      ] ,
+		      rdf:Description ;
+		    dcterms:contributor [ a dcterms:Agent ;
+					  rdf:value "FA"
+					] ;
+		    dcterms:creator <NAA> ;
+		    dcterms:dateAccepted "2007-11-23T13:12:59" ;
+		    dcterms:dateSubmitted "2007-11-23T13:12:59" ;
+		    dcterms:modified "2007-11-23T13:51:52" ;
+		    rdf:about "http://data.beeldengeluid.nl/gtaa/25046" ;
+		    skos:broadMatch [ a skos:BroadMatch ;
+				      rdf:resource "http://data.beeldengeluid.nl/gtaa/24842"
+				    ] ;
+		    skos:broader [ a skos:Broader ;
+				   rdf:resource "http://data.beeldengeluid.nl/gtaa/28493"
+				 ] ;
+		    skos:historyNote "Gewijzigd door: NAA"@nl ,
+				     "Goedgekeurd door: NAA"@nl ,
+				     "Recordnummer: 908 Datum invoer: 23-4-1996 Gebruiker invoer: LENNY Datum gewijzigd: 12-10-2004 Gebruiker gewijzigd: Beng"@nl ;
+		    skos:inScheme [ a skos:ConceptScheme ;
+				    rdf:resource "http://data.beeldengeluid.nl/gtaa/Onderwerpen"
+				  ] ;
+		    skos:notation "25046" ;
+		    skos:prefLabel "brandstichting"@nl ;
+		    skos:related [ a skos:Related ;
+				   rdf:resource "http://data.beeldengeluid.nl/gtaa/25043"
+				 ] ,
+				 [ a skos:Related ;
+				   rdf:resource "http://data.beeldengeluid.nl/gtaa/27514"
+				 ] ,
+				 [ a skos:Related ;
+				   rdf:resource "http://data.beeldengeluid.nl/gtaa/29471"
+				 ]
+		  ]
+] .
+[ a oai:Record ;
+  oai:datestamp "2013-10-17T12:34:23Z" ;
+  oai:identifier "0005408c-dd49-56b4-a1ea-e1eafbc9de3e" ;
+  oai:server org:oai-pmh ;
+  rdf:description [ a [ a rdfs:Class ;
+			rdf:resource "http://www.w3.org/2004/02/skos/core#Concept"
+		      ] ,
+		      rdf:Description ;
+		    dcterms:creator <NAA> ;
+		    dcterms:dateAccepted "2007-11-23T18:44:47" ;
+		    dcterms:dateSubmitted "2007-11-23T18:44:47" ;
+		    rdf:about "http://data.beeldengeluid.nl/gtaa/60134" ;
+		    skos:historyNote "Goedgekeurd door: NAA"@nl ;
+		    skos:inScheme [ a skos:ConceptScheme ;
+				    rdf:resource "http://data.beeldengeluid.nl/gtaa/Namen"
+				  ] ;
+		    skos:notation "60134" ;
+		    skos:prefLabel "LIGA"@nl ;
+		    skos:scopeNote "Landelijk Initiatief Geen Alfa-hulp"@nl
+		  ]
+] .
+[ a oai:Record ;
+  oai:datestamp "2013-10-17T12:34:04Z" ;
+  oai:identifier "0005804e-0fa2-bed5-0690-d90bf713feb8" ;
+  oai:server org:oai-pmh ;
+  rdf:description [ a [ a rdfs:Class ;
+			rdf:resource "http://www.w3.org/2004/02/skos/core#Concept"
+		      ] ,
+		      rdf:Description ;
+		    dcterms:creator <NAA> ;
+		    dcterms:dateAccepted "2007-11-23T18:38:48" ;
+		    dcterms:dateSubmitted "2007-11-23T18:38:48" ;
+		    rdf:about "http://data.beeldengeluid.nl/gtaa/59069" ;
+		    skos:historyNote "Goedgekeurd door: NAA"@nl ;
+		    skos:inScheme [ a skos:ConceptScheme ;
+				    rdf:resource "http://data.beeldengeluid.nl/gtaa/Namen"
+				  ] ;
+		    skos:notation "59069" ;
+		    skos:prefLabel "Krammersluizen"@nl
+		  ]
+] .
+[ a oai:Record ;
+  oai:datestamp "2013-10-17T12:31:41Z" ;
+  oai:identifier "00060b36-9ef6-5b03-fe4c-04ae0de39090" ;
+  oai:server org:oai-pmh ;
+  rdf:description [ a [ a rdfs:Class ;
+			rdf:resource "http://www.w3.org/2004/02/skos/core#Concept"
+		      ] ,
+		      rdf:Description ;
+		    dcterms:creator <NAA> ;
+		    dcterms:dateAccepted "2007-11-23T17:55:14" ;
+		    dcterms:dateSubmitted "2007-11-23T17:55:14" ;
+		    rdf:about "http://data.beeldengeluid.nl/gtaa/49820" ;
+		    skos:historyNote "Goedgekeurd door: NAA"@nl ;
+		    skos:inScheme [ a skos:ConceptScheme ;
+				    rdf:resource "http://data.beeldengeluid.nl/gtaa/Namen"
+				  ] ;
+		    skos:notation "49820" ;
+		    skos:prefLabel "Chansons Animees"@nl
+		  ]
+] .
+[ a oai:Record ;
+  oai:datestamp "2013-10-17T13:02:32Z" ;
+  oai:identifier "00061ac0-de03-75cf-f09f-a2ac82bfc03f" ;
+  oai:server org:oai-pmh ;
+  rdf:description [ a [ a rdfs:Class ;
+			rdf:resource "http://www.w3.org/2004/02/skos/core#Concept"
+		      ] ,
+		      rdf:Description ;
+		    dcterms:creator <NAA> ;
+		    dcterms:dateAccepted "2007-11-23T22:11:33" ;
+		    dcterms:dateSubmitted "2007-11-23T22:11:33" ;
+		    rdf:about "http://data.beeldengeluid.nl/gtaa/76841" ;
+		    skos:hiddenLabel "Severin Amelinckx"@nl ;
+		    skos:historyNote "Goedgekeurd door: NAA"@nl ;
+		    skos:inScheme [ a skos:ConceptScheme ;
+				    rdf:resource "http://data.beeldengeluid.nl/gtaa/Persoonsnamen"
+				  ] ;
+		    skos:notation "76841" ;
+		    skos:prefLabel "Amelinckx, Severin"@nl
+		  ]
+] .
+[ a oai:Record ;
+  oai:datestamp "2013-10-17T12:23:54Z" ;
+  oai:identifier "00074f35-b5da-7f05-fa3b-078503a04199" ;
+  oai:server org:oai-pmh ;
+  rdf:description [ a [ a rdfs:Class ;
+			rdf:resource "http://www.w3.org/2004/02/skos/core#Concept"
+		      ] ,
+		      rdf:Description ;
+		    dcterms:creator <NAA> ;
+		    dcterms:dateAccepted "2007-11-25T18:06:39" ;
+		    dcterms:dateSubmitted "2007-11-25T18:06:39" ;
+		    rdf:about "http://data.beeldengeluid.nl/gtaa/194963" ;
+		    skos:hiddenLabel "Jan Rodekerk"@nl ;
+		    skos:historyNote "Goedgekeurd door: NAA"@nl ;
+		    skos:inScheme [ a skos:ConceptScheme ;
+				    rdf:resource "http://data.beeldengeluid.nl/gtaa/Maker"
+				  ] ;
+		    skos:notation "194963" ;
+		    skos:prefLabel "Rodekerk, Jan"@nl
+		  ]
+] .
+[ a oai:Record ;
+  oai:datestamp "2013-10-17T12:21:36Z" ;
+  oai:identifier "00075af4-6182-a872-5419-658a93a0e327" ;
+  oai:server org:oai-pmh ;
+  rdf:description [ a [ a rdfs:Class ;
+			rdf:resource "http://www.w3.org/2004/02/skos/core#Concept"
+		      ] ,
+		      rdf:Description ;
+		    dcterms:creator <NAA> ;
+		    dcterms:dateAccepted "2007-11-25T16:09:04" ;
+		    dcterms:dateSubmitted "2007-11-25T16:09:04" ;
+		    rdf:about "http://data.beeldengeluid.nl/gtaa/187706" ;
+		    skos:hiddenLabel "Martje van der Heijden"@nl ;
+		    skos:historyNote "Goedgekeurd door: NAA"@nl ;
+		    skos:inScheme [ a skos:ConceptScheme ;
+				    rdf:resource "http://data.beeldengeluid.nl/gtaa/Maker"
+				  ] ;
+		    skos:notation "187706" ;
+		    skos:prefLabel "Heijden, Martje van der"@nl
+		  ]
+] .
+[ a oai:Record ;
+  oai:datestamp "2013-10-17T12:22:55Z" ;
+  oai:identifier "0007e758-3a83-9e08-90e6-690c1466bc64" ;
+  oai:server org:oai-pmh ;
+  rdf:description [ a [ a rdfs:Class ;
+			rdf:resource "http://www.w3.org/2004/02/skos/core#Concept"
+		      ] ,
+		      rdf:Description ;
+		    dcterms:creator <NAA> ;
+		    dcterms:dateAccepted "2007-11-25T17:12:57" ;
+		    dcterms:dateSubmitted "2007-11-25T17:12:57" ;
+		    rdf:about "http://data.beeldengeluid.nl/gtaa/191718" ;
+		    skos:hiddenLabel "Leen Lybaert"@nl ;
+		    skos:historyNote "Goedgekeurd door: NAA"@nl ;
+		    skos:inScheme [ a skos:ConceptScheme ;
+				    rdf:resource "http://data.beeldengeluid.nl/gtaa/Maker"
+				  ] ;
+		    skos:notation "191718" ;
+		    skos:prefLabel "Lybaert, Leen"@nl
+		  ]
+] .
+[ a oai:Record ;
+  oai:datestamp "2013-10-17T12:31:41Z" ;
+  oai:identifier "00089b90-cbaa-6577-edad-54697f36202b" ;
+  oai:server org:oai-pmh ;
+  rdf:description [ a [ a rdfs:Class ;
+			rdf:resource "http://www.w3.org/2004/02/skos/core#Concept"
+		      ] ,
+		      rdf:Description ;
+		    dcterms:creator <NAA> ;
+		    dcterms:dateAccepted "2007-11-23T17:58:09" ;
+		    dcterms:dateSubmitted "2007-11-23T17:58:09" ;
+		    rdf:about "http://data.beeldengeluid.nl/gtaa/50548" ;
+		    skos:historyNote "Goedgekeurd door: NAA"@nl ;
+		    skos:inScheme [ a skos:ConceptScheme ;
+				    rdf:resource "http://data.beeldengeluid.nl/gtaa/Namen"
+				  ] ;
+		    skos:notation "50548" ;
+		    skos:prefLabel "Commissie-Wijnen"@nl
+		  ]
+] .
+[ a oai:Record ;
+  oai:datestamp "2013-10-17T12:35:42Z" ;
+  oai:identifier "000973ec-2107-dc16-c20a-c2d85c01bb6e" ;
+  oai:server org:oai-pmh ;
+  rdf:description [ a [ a rdfs:Class ;
+			rdf:resource "http://www.w3.org/2004/02/skos/core#Concept"
+		      ] ,
+		      rdf:Description ;
+		    dcterms:creator <NAA> ;
+		    dcterms:dateAccepted "2007-11-23T19:11:00" ;
+		    dcterms:dateSubmitted "2007-11-23T19:11:00" ;
+		    rdf:about "http://data.beeldengeluid.nl/gtaa/64412" ;
+		    skos:historyNote "Goedgekeurd door: NAA"@nl ;
+		    skos:inScheme [ a skos:ConceptScheme ;
+				    rdf:resource "http://data.beeldengeluid.nl/gtaa/Namen"
+				  ] ;
+		    skos:notation "64412" ;
+		    skos:prefLabel "Pilatus"@nl ;
+		    skos:scopeNote "sportvliegtuig"@nl
+		  ]
+] .
+[ a oai:Record ;
+  oai:datestamp "2013-10-17T13:17:28Z" ;
+  oai:identifier "000a04e7-4289-403a-ffc1-22534a62e9a7" ;
+  oai:server org:oai-pmh ;
+  rdf:description [ a [ a rdfs:Class ;
+			rdf:resource "http://www.w3.org/2004/02/skos/core#Concept"
+		      ] ,
+		      rdf:Description ;
+		    dcterms:creator <NAA> ;
+		    dcterms:dateAccepted "2007-11-24T05:20:23" ;
+		    dcterms:dateSubmitted "2007-11-24T05:20:23" ;
+		    rdf:about "http://data.beeldengeluid.nl/gtaa/122984" ;
+		    skos:hiddenLabel "Karin Maria Kwant"@nl ;
+		    skos:historyNote "Goedgekeurd door: NAA"@nl ;
+		    skos:inScheme [ a skos:ConceptScheme ;
+				    rdf:resource "http://data.beeldengeluid.nl/gtaa/Persoonsnamen"
+				  ] ;
+		    skos:notation "122984" ;
+		    skos:prefLabel "Kwant, Karin Maria"@nl
+		  ]
+] .
+[ a oai:Record ;
+  oai:datestamp "2013-10-17T13:19:27Z" ;
+  oai:identifier "000a4092-752a-3a0a-e648-22894c5cfa69" ;
+  oai:server org:oai-pmh ;
+  rdf:description [ a [ a rdfs:Class ;
+			rdf:resource "http://www.w3.org/2004/02/skos/core#Concept"
+		      ] ,
+		      rdf:Description ;
+		    dcterms:creator <NAA> ;
+		    dcterms:dateAccepted "2007-11-24T06:47:19" ;
+		    dcterms:dateSubmitted "2007-11-24T06:47:19" ;
+		    rdf:about "http://data.beeldengeluid.nl/gtaa/129635" ;
+		    skos:hiddenLabel "Arnold van Mil"@nl ;
+		    skos:historyNote "Goedgekeurd door: NAA"@nl ;
+		    skos:inScheme [ a skos:ConceptScheme ;
+				    rdf:resource "http://data.beeldengeluid.nl/gtaa/Persoonsnamen"
+				  ] ;
+		    skos:notation "129635" ;
+		    skos:prefLabel "Mil, Arnold van"@nl ;
+		    skos:scopeNote "operazanger"@nl
+		  ]
+] .
